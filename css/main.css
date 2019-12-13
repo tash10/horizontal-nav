@@ -1,17 +1,42 @@
 html {
-  box-sizing:border-box;
+  box-sizing: border-box;
   background-color: #dbd6cf;
   line-height: 1.5;
 }
-*, *::before, *::after {
+
+* {
   box-sizing: inherit;
 }
 
 body {
+  margin: 0;
+}
+
+header {
   background-color: #79756f;
   text-align: center;
-  padding: .14rem;
+  padding: .75em;
   margin: 0;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
+}
+
+h1 {
+  font-family: Bevan, serif;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: .3em;
+}
+
+ul li {
+  ul li {
+  display: inline;
+}
+
+a:link, a:visited {
+  font-family: sans-serif;
+  background-color: #713837;
 }
