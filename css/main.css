@@ -1,0 +1,17 @@
+html {
+  box-sizing:border-box;
+  background-color: #dbd6cf;
+  line-height: 1.5;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #79756f;
+  text-align: center;
+  padding: .14rem;
+  margin: 0;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+}
